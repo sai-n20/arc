@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faBolt } from '@fortawesome/free-solid-svg-icons';
+import { faSearch, faChevronDown, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +8,10 @@ import { faBolt } from '@fortawesome/free-solid-svg-icons';
 })
 export class HomeComponent implements OnInit {
 
-  faBolt = faBolt;
+  faSearch = faSearch;
+  faChevronDown = faChevronDown;
+  faShoppingCart = faShoppingCart;
+  cartItems: number = 69;
 
   constructor() { }
 

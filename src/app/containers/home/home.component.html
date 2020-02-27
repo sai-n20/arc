@@ -3,12 +3,26 @@
         <div class="box1">
             <img src="../../../assets/img/ARC.jpg" height="120px" width="160px" alt="">
         </div>
-        <!-- <div class="box2">
-            Two
+        <div class="box2">
+            <button class="btn btn-outline-secondary btns" type="button">Shop By Category <fa-icon
+                    [icon]="faChevronDown"></fa-icon></button>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                        <fa-icon [icon]="faSearch"></fa-icon>
+                    </button>
+                </div>
+            </div>
         </div>
         <div class="box3">
-            Three
-        </div> -->
+            <button class="btn btn-outline-secondary btns" type="button">Login or Signup</button>
+        </div>
+        <div class="box4">
+            <button class="btn btn-outline-secondary btns" type="button">
+                <fa-icon [icon]="faShoppingCart"></fa-icon>&nbsp;Cart <span class="pill">{{cartItems}}</span>
+            </button>
+        </div>
     </div>
     <div class="landing">
         <div class="carousel">

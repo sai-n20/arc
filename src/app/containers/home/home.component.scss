@@ -14,6 +14,49 @@
     color: white;
     background-color: #252830;
     max-height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .box1 {
+    position: absolute;
+    left: 1.2em;
+    margin-top: -0.4em;
+}
+.header .box2 {
+    display: flex;
+    margin-left: 10vw;
+}
+.header .btn-outline-secondary {
+    color: white;
+}
+.header .btns {
+    border: none;
+    margin-right: 2em;
+}
+.header .box2 .input-group {
+    width: 38vw;
+}
+.header .box2 .input-group .form-control {
+    padding-bottom: 0.6em;
+}
+.header .box3 {
+    border-right: 1px solid white;
+}
+.header .box3 .btns {
+    margin-left: 2em;
+    border: 1px dashed white;
+}
+.header .box4 {
+    margin-left: 2em;
+}
+.header .box4 .btns {
+    border: 1px solid #f2903d;
+}
+.header .box4 .pill {
+    padding: 0em 0.6em 0.12em 0.6em;
+    border-radius: 12px;
+    background-color: #f2903d;
 }
 .landing {
     grid-area: landing;
