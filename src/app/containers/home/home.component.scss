@@ -61,7 +61,15 @@
 .landing {
     grid-area: landing;
     height: 90vh;
+    padding: 2em;;
     background-color: #f8f9fa!important;
+}
+.landing .carousel {
+    // height: 200px;
+}
+.landing .carousel img {
+    height: 60vh;
+    width: 65vw;
 }
 .footer {
     grid-area: footer;
